@@ -1,0 +1,75 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"> <!--IMPORTANT otherwise backgrnd img. will not fill the whole screen -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id="@+id/cim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:text="Szállások"
+            android:textSize="25dp"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/kep1"
+            android:layout_width="211dp"
+            android:layout_height="135dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="37dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/apartman1" />
+
+
+        <Button
+            android:id="@+id/android1"
+            android:layout_width="161dp"
+            android:layout_height="44dp"
+            android:layout_below="@id/kep1"
+            android:layout_marginTop="4dp"
+            android:text="@string/foglal"
+
+            />
+
+        <ImageView
+            android:id="@+id/kep2"
+            android:layout_width="212dp"
+            android:layout_height="169dp"
+            android:layout_below="@id/android1"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/apartman2" />
+
+        <Button
+            android:id="@+id/android2"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/kep2"
+            android:text="@string/foglal" />
+
+        <ImageView
+            android:id="@+id/kep3"
+            android:layout_width="212dp"
+            android:layout_height="169dp"
+            android:layout_below="@id/android2"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/haz" />
+
+        <Button
+            android:id="@+id/gomb3"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/kep3"
+
+            android:layout_marginTop="17dp"
+            android:text="@string/foglal" />
+    </RelativeLayout>
+</ScrollView>

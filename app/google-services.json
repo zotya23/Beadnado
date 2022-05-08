@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1050532836294",
+    "project_id": "mobilalk-381ba",
+    "storage_bucket": "mobilalk-381ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050532836294:android:cf18ae6eba3fb1968138c7",
+        "android_client_info": {
+          "package_name": "com.geeksforgeeks.firebaseuserauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050532836294-11f588svt015l215jqc24hqr1us36pl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFwbZIsIR0Rpw0Nn8E3BGXd--ZoCqAuio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050532836294-11f588svt015l215jqc24hqr1us36pl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
