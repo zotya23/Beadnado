@@ -20,7 +20,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 public class MainActivity extends AppCompatActivity {
-    //private static final int REQUEST_CODE = 1;
+
 
 
     private static final String[] STORAGE_PERMISSIONS = {
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     Button b;
     Button c;
 
-    private TextView geeksforgeeks;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         //initialising all views through id defined above
-        geeksforgeeks = findViewById(R.id.gfg);
+
         //geeksforgeeks.setText("GeeksForGeeks(Firebase Authentication)");
 
         b = (Button)findViewById(R.id.android1);
